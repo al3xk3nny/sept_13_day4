@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Contact Form</title>
+    <style>
+       .bg-color-name-title {
+            background-image: url(assets/images/background.jpg);
+        }
+        
+        .heading {
+            margin-left: 50px;
+            }
+
+        .headingName {
+            font-family: 'Caveat', cursive;
+            font-weight: 200;
+            font-size: 80px;
+            margin-top: 20px;
+        }
+        
+        .headingTitle {
+            font-family: 'Lato', sans-serif;
+            font-weight: 100;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .boxTitle {
+            font-family: 'Caveat', cursive;
+        }
+        
+        .section-column {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar
+-------------------- -->
+    <nav class="navbar navbar-expand-md bg-info navbar-dark">
+        <a class="navbar-brand" href="index.html">
+            <img class="hvr-wobble-vertical" src="assets/images/logo.png" alt="logo" width="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Locations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Heading
+-------------------- -->
+    <div class="container-fluid">
+        <div class="row bg-color-name-title">
+            <div class="col heading">
+                <h1 class="headingName">India Spice</h1>
+                <h2 class="headingTitle">A world of cuisine across an infinate palate of flavours.</h2>
+            </div>
+        </div>
+    </div>
+
+<!-- Box And Contact Form
+-------------------- -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="d-none d-md-block col-md-4 bg-color-welcome section-column">
+                <h2 class="boxTitle">Welcome To India Spice</h2>
+                <img class="mb-2" src="assets/images/spices.jpg" alt="spices" width="100%">
+                <p>An Indian meal is more than a feast for the senses because it carries the impression of geography, local custom, traditional belief and religious ideology.</p>
+                <p>Come experience India through her world of cuisine across an infinite palate of flavours.</p>
+            </div>
+            <div class="col-sm-12 col-md-8 bg-color-form section-column">
+                <h2>Contact Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Your Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="full name">
+                        
+                        <label for="exampleFormControlInput2">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                        
+                        <label for="exampleFormControlInput3">Phone number</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput3" placeholder="+353 081 2345678">
+                        
+                        <label for="exampleFormControlTextarea1">Comments</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
